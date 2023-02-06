@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes|Open+Sans:300,300i,400,400i,600,600i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400');
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    font-family: Montserrat;
+}
+
+a{
+    cursor: pointer;
+}
+* {
+    box-sizing: border-box;
+  }
+
+
+nav ul li a {
+    color: #BE97DC !important;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+}
+nav ul li a:hover{
+    color: grey !important;
+    text-decoration: underline !important;
+}
+.search-header  {
+    margin: 0 0 .1em 0;
+    font-family: 'Great Vibes', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size:  calc(70px + 1.5vw);
+    line-height: normal;
+    color: #BE97DC;
+  }
+
+  .input-group-text, .submit-btn{
+      background: #BE97DC !important;
+      color: white !important;
+      border-color:#BE97DC !important;
+  }
+  button:focus, a:focus{
+ 
+        outline: none !important;
+      
+  }
+
+  input:focus, input.form-control:focus {
+
+    outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    border-color: #BE97DC !important;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+footer{
+    
+    background: rgb(117, 80, 156) ;
+    color: white;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    bottom: 0%;
+    left: 0%;
+}
+
+/* style list.php */
+.list ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  
+}
+.list ul li{
+    width: 40px;
+    height: 30px;
+    background: white;
+    border: 0.5px solid;
+    border-color: rgb(175, 123, 214);
+    text-align: center;
+    padding-top: 3px;
+    
+  }
+.list ul li a {
+    text-decoration: none;
+    color: #BE97DC;
+    display: block;
+   
+  
+}
+.list ul li:hover{
+    background:#BE97DC;
+}
+
+.list ul li:hover a {
+    color: #fff;
+  }  
+  .terms a {
+    color: black;
+  }
+
+  .vector {
+    background: url('images/Vector.svg') no-repeat bottom right;
+    background-size: 60%;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+  } 
+
+
+  .demo {
+    display: inline-block;
+ }
+ .demo a {
+    color: red;
+    padding: 5px 12px;
+    text-decoration: none;
+    transition: background-color 2s;
+    border: 1px solid orange;
+ }
+ .demo a.active {
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+ }
+ .demo a:hover:not(.active) {
+    background-color: yellow;
+ }
+ .demo a:first-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+ }
+ .demo a:last-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+ }
+
+
+
+
+  
